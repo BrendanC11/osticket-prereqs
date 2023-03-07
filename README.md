@@ -36,7 +36,7 @@ Select “Review and create” then “Create.”
 </p>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ZuXMDpY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <br />
@@ -64,7 +64,7 @@ Select “Review and create -> create.”
 </p>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/c5EIuGS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <br />
@@ -83,7 +83,7 @@ Select “Different user” and input the credentials we used when creating the 
 </p>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/JKt4qu9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <br />
@@ -113,7 +113,7 @@ Next, from the Installation Files, download “MySQL 5.5.62 (mysql-5.5.62-win32.
 </p>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/OM599pC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <br />
@@ -131,7 +131,7 @@ Close IIS Services
 </p>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ZX7m9le.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <br />
@@ -142,29 +142,50 @@ Close IIS Services
 From the installation files download “OsTicket v1.15.8”
 
 In file explorer open the zip file we just downloaded called “OsTicket v1.15.8”. Open another file explorer window and navigate to “This PC -> Windows (C:) -> inetpub -> wwwroot” and then drag the folder labelled “upload” from the “OsTicket v1.15.8” zip file to the “wwwroot” folder. Rename the “upload” folder to “osTicket”. Ensure that it is spelled the same as I have written with no spaces.
+</p>
 
+<p>
+<img src="https://i.imgur.com/R6JWlXn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<p>
 Re-open IIS services and restart the server as we did previously.
 
 On the left-hand side of IIS Services, expand “OsTicket-VM -> Sites -> Defualt web site” and select osTicket. On the right hand side select “Browse *:80 (http)” this will open the osTicket installer in a web page.
+</p>
 
+<p>
+<img src="https://i.imgur.com/hNqvgIZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<p>
 Within “OsTicket-VM -> Sites -> Defualt web site -> osTicket” double click “PHP Manager” then click “enable or disable an extension” 
 
 Enable:
+  
 php_imap.dll
+  
 php_intl.dll
+  
 php_opcache.dll
 
 Refresh the OsTicket site in your browse to observe changes.
 
 In file explorer navigate to “This PC -> Windows (C:) -> inetpub -> wwwroot -> osTicket -> include” and find the file named “ost-sampleconfig.php” rename this file to “ost-config.php”
+</p>
 
+<p>
+<img src="https://i.imgur.com/HayNy5A.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<p>
 Right-click “ost-config.php” and select “properties” select “Security” select “Advanced” select “Disable inheritance” select “Remove all inherited permissions from this object”
 
 Within “Advanced” select “Add” click “Select a principle” inside the search box type “everyone” press “Check names” press OK. Tick the box titled “Full control” press OK. Press “Apply” press “Okay”.
 </p>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/OGQptoF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <br />
