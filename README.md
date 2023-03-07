@@ -232,7 +232,9 @@ Using file explorer, navigate to “This PC -> Windows (C:) -> inetpub -> wwwroo
 
 Navigate to “This PC -> Windows (C:) -> inetpub -> wwwroot -> osTicket -> include” and find the file named “ost-config.php” right click “ost-config.php” and select “properties” select “Security” select “Advanced” select “Everyone” select “Edit” and make sure that only the “Read” and “Read and execute” boxes are checked. Select OK, Select “Apply” Select OK.
 
-Congratulations. You have successfully installed OsTicket.
+Congratulations. 
+  
+You have successfully installed OsTicket. In the next tutorial we will go over how to configure OsTicket post-installation.
 </p>
 
 <br />
