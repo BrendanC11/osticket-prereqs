@@ -24,7 +24,7 @@ This is a beginner friendly tutorial to help you install the open-source help de
 <h2>Installation Steps</h2>
 
 <p>
-1.	Create a resource group. 
+<b>1.	Create a resource group.</b>
 
 Within Microsoft Azure, navigate to “Resource groups” via the search bar and select “Create.” Inside this resource group is where we will store our virtual machine that will run OsTicket.
 
@@ -42,7 +42,7 @@ Select “Review and create” then “Create.”
 <br />
 
 <p>
-2.	Create a Virtual Machine. 
+<b>2.	Create a Virtual Machine.</b>
 
 Within Microsoft Azure, navigate to “virtual machines” via the search bar and select “Create -> Azure virtual machine.”
 
@@ -71,7 +71,7 @@ Select “Review and create -> create.”
 
 
 <p>
-3.	Connect to the virtual machine via remote desktop connection.
+<b>3.	Connect to the virtual machine via remote desktop connection.</b>
 
 Open remote desktop connection on your PC.
 
@@ -89,7 +89,7 @@ Select “Different user” and input the credentials we used when creating the 
 <br />
 
 <p>
-4.	Install OsTicket prerequisites.
+<b>4.	Install OsTicket prerequisites.</b>
 
 Once inside your virtual machine, open a web browser and paste the link below into the search bar.
 
@@ -119,7 +119,7 @@ Next, from the Installation Files, download “MySQL 5.5.62 (mysql-5.5.62-win32.
 <br />
 
 <p>
-5.	Reload IIS
+<b>5.	Reload IIS</b>
 
 Press start, search for “IIS” and right click to run as an administrator.
 
@@ -137,7 +137,7 @@ Close IIS Services
 <br />
 
 <p>
-6.	Install OsTicket
+<b>6.	Install OsTicket</b>
 
 From the installation files download “OsTicket v1.15.8”
 
@@ -191,7 +191,7 @@ Within “Advanced” select “Add” click “Select a principle” inside the
 <br />
 
 <p>
-7.	Setup OsTicket in the browser.
+<b>7.	Setup OsTicket in the browser.</b>
 
 Return to your browser window that has OsTicket open. Press “Continue”
 
@@ -224,7 +224,7 @@ Return to the web page with the OsTicket installer open. Under “Database setti
 <br />
 
 <p>
-8.	Cleanup
+<b>8.	Cleanup</b>
 
 Before we can use OsTicket we must cleanup some files. 
 
