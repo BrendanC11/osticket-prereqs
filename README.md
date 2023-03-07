@@ -204,6 +204,11 @@ Last name: Doe
 Email address: johndoe@outlook.com
 Username: johndoe
 Password: Password1
+</p>
+
+<p>
+<img src="https://i.imgur.com/YTIhX8J.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 
 Next, from the installation files download “HeidiSQL”. Once HeidiSQL is installed open the application, select “New”. On the right-hand side “User” should be auto filled with “Root”. Under “Password” enter the password that we created when setting up MySQL, in this case we used “Password1”. Select “Open”.
 
@@ -213,7 +218,7 @@ Return to the web page with the OsTicket installer open. Under “Database setti
 </p>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/dJ2SqqU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <br />
@@ -228,10 +233,6 @@ Using file explorer, navigate to “This PC -> Windows (C:) -> inetpub -> wwwroo
 Navigate to “This PC -> Windows (C:) -> inetpub -> wwwroot -> osTicket -> include” and find the file named “ost-config.php” right click “ost-config.php” and select “properties” select “Security” select “Advanced” select “Everyone” select “Edit” and make sure that only the “Read” and “Read and execute” boxes are checked. Select OK, Select “Apply” Select OK.
 
 Congratulations. You have successfully installed OsTicket.
-</p>
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <br />
